@@ -17,8 +17,24 @@
 
 
 // rather than having to check for both null and undefined like this:
+// if(someVariable !== null && someVariable !== undefined){}
 
 //TODO write example
+
+//example 1 
+// const test = ""; //falsy
+// const test = 0; //falsy
+// const test = undefined; //falsy
+// const test = false; //falsy
+// const test = null; //falsy
+
+// const test = "Sander"; //truly
+
+// if (test) {
+//     console.log("truly");
+// } else {
+//     console.log("falsy");
+// }
 
 
 
@@ -36,3 +52,22 @@
 
 
 // Example 2 Real life example
+//some data from the API
+
+// const carsData = [
+//     {
+//         make: "Tesla",
+//         isElectric: true
+//     },
+//     {
+//         make: "BMW",
+//         isElectric: false    
+//     }
+// ]
+
+// carsData.forEach(function (car){
+//     console.log(car);
+//     if(!car.isElectric) {
+//         console.log("car make is " + car.make + " and it is not electric");
+//     }
+// });

@@ -4,7 +4,7 @@
 // Example
 // https://www.youtube.com/watch?v=M5QY2_8704o
 
-// this ?v=M5QY2_8704o is thr query string, it has one parameter called
+// this ?v=M5QY2_8704o is the query string, it has one parameter called
 // v
 
 // with a value of : M5QY2_8704o
