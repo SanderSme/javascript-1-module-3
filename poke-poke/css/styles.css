@@ -1,0 +1,36 @@
+* {
+  font-family: "Architects Daughter", cursive;
+}
+
+body {
+  background-image: url(/poke-poke/pics/pokémon-super-mystery-dungeon.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul.pokemons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+ul.pokemons li {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(221, 31, 17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-transform: capitalize;
+}
+
+ul.pokemons li span {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}

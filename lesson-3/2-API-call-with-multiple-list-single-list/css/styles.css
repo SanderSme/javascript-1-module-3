@@ -1,0 +1,30 @@
+* {
+  font-family: "Architects Daughter", cursive;
+}
+
+ul.pokemons {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+ul.pokemons li {
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+ul.pokemons li span {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
