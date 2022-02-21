@@ -21,6 +21,7 @@ async function getPokemonNames(){
         const response = await fetch(APIurl);
         const responseJSON = await response.json();
         const pokemonsData = responseJSON.results;
+        console.log(pokemonsData);
         for (let i = 0; i < pokemonsData.length; i++) {
             pokemonContainer.innerHTML += `<li><span>${pokemonsData[i].name}</span></li>`
         }
